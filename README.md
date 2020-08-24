@@ -1,8 +1,8 @@
-# vsf-select-regions
+# Directory module for Vue Storefront
 Module load regions from magento2 to frontend and implements the select component
 
 ```bash
-git clone git@github.com:Interactivated/vsf-select-regions.git src/modules/vsf-select-regions
+git clone git@github.com:Interactivated/vsf-directory.git src/modules/vsf-directory
 ```
 
 ## Frontend configuration
@@ -18,7 +18,7 @@ git clone git@github.com:Interactivated/vsf-select-regions.git src/modules/vsf-s
 ## Registeration of api extension
 
 ```bash
-cp -fr src/modules/vsf-select-regions/api/directory ../vue-storefront-api/src/api/extensions/
+cp -fr src/modules/vsf-directory/api/directory ../vue-storefront-api/src/api/extensions/
 ```
 
 
