@@ -4,7 +4,7 @@ import { getters } from './getters'
 import { actions } from './actions'
 import * as types from './mutation-types'
 
-export const paypalStore: Module<DirectoryState, any> = {
+export const directoryStore: Module<DirectoryState, any> = {
   namespaced: true,
   actions,
   getters,
