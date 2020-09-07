@@ -5,7 +5,7 @@ import { directoryStore } from './store'
 
 export const KEY = 'directory'
 
-export const PaymentPaypalModule: StorefrontModule = function ({ store, router, appConfig }) {
+export const DirectoryModule: StorefrontModule = function ({ store, router, appConfig }) {
   // beforeRegistration(appConfig, store)
   store.registerModule(KEY, directoryStore)
   // afterRegistration(appConfig, store)
