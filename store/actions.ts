@@ -1,10 +1,9 @@
-import config from 'config'
-import { PaypalState } from '../types/DirectoryState'
+import { DirectoryState } from '../types/DirectoryState'
 import { ActionTree } from 'vuex'
 import rootStore from '@vue-storefront/core/store'
 import * as types from './mutation-types'
 
-export const actions: ActionTree<PaypalState, any> = {
+export const actions: ActionTree<DirectoryState, any> = {
 
   loadRegions ({ commit },  { country } ) {
     return new Promise((resolve, reject) => {
