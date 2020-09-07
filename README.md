@@ -12,7 +12,7 @@ git clone git@github.com:Interactivated/vsf-directory.git src/modules/vsf-direct
     "endpoint": {
       "regions": "/api/ext/directory/regions"
     }
-  },
+},
 ```
 
 ## Registeration of api extension
